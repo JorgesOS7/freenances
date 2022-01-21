@@ -354,6 +354,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        "Fira Sans",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
