@@ -10,9 +10,8 @@
         <component
           :is="icon"
           :size="32"
-          :weight="isExactActive ? 'fill' : 'regular'"
           :class="{
-            'text-indigo-600': isExactActive,
+            'text-purple-600': isExactActive,
             'text-gray-400': !isExactActive,
           }"
         />
@@ -30,13 +29,13 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style lang="postcss">
 .dot {
   @apply after:bottom-1
         after:absolute
-        after:w-1.5
+        after:w-2
         after:h-1.5
-        after:bg-indigo-600
+        after:bg-purple-800
         after:rounded-full;
 }
 </style>
