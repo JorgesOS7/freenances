@@ -1,4 +1,33 @@
-# freenances-nuxt
+# Freenances 💸
+
+## Suas finanças de um jeito simples e fácil.
+<br />
+
+
+<br />
+<img src="https://img.shields.io/static/v1?label=Made%20With&message=Vue&color=41b883&style=for-the-badge&logo=Vue.js"/>
+<img src="https://img.shields.io/static/v1?label=Made%20With&message=Nuxt&color=41b883&style=for-the-badge&logo=Nuxt.js"/>
+<img src="https://img.shields.io/static/v1?label=Made%20With&message=Tailwindcss&color=41b883&style=for-the-badge&logo=tailwindcss"/>
+
+<br />
+
+## Sobre o Freenances
+Com o `Freenances` você pode salvar suas movimentações mensais, assim organizando sua vida financeira de forma simples e sem complicações.
+
+> Com o `Freenances` você pode:
+- Cadastrar movimentações
+- Listar suas movimentações
+- Obter gráfico mensal
+
+## ⚠️ Projeto em desenvolvimento
+O Projeto hoje conta apenas com a parte visual.
+- [x] UI
+- [x] Responsividade 
+- [ ] Cadastro de movimentações
+- [ ] Listagem de movimentações
+
+## ⚠️ Observação
+O `Freenances` não possui um backend, portanto todos os dados são salvos localmente no `IndexDB`. 
 
 ## Build Setup
 
@@ -16,54 +45,12 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+<br />
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/54776441?v=4" width="100px;" alt=""/>
+<br />
+<sub><b>José Jorge</b></sub>
 
-## Special Directories
+Feito com ❤️ por José Jorge 👋🏽 Entre em contato!
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+[![Linkedin Badge](https://img.shields.io/badge/-José%20Jorge-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jos%C3%A9-jorge-74272b189)](https://www.linkedin.com/in/jos%C3%A9-jorge-74272b189/)
