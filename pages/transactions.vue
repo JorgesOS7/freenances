@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-1 overflow-y-scroll">
+  <main class="flex-1 overflow-y-auto">
     <header class="bg-purple-700 border-b">
       <div class="container mx-auto p-6">
         <h1 class="text-xl text-white">Movimentações</h1>
@@ -385,7 +385,7 @@
           </li>
           <li class="bg-white p-5 rounded-md" v-for="item in 10" :key="item">
             <p class="text-base text-gray-700">Aspirador de Pó</p>
-            <h3 class="text-xl my-3 text-red-500">R$ - 400,00</h3>
+            <h3 class="text-xl my-3 text-rose-600">R$ - 400,00</h3>
             <div
               class="flex flex-row justify-between items-center text-gray-500"
             >

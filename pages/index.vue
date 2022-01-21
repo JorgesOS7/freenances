@@ -1,5 +1,5 @@
 <template>
-  <main class="flex-1 overflow-y-scroll">
+  <main class="flex-1 overflow-y-auto">
     <header class="bg-purple-700 border-b">
       <div class="container mx-auto h-64 p-6">
         <h1 class="text-xl inline-flex items-center text-white">
@@ -9,7 +9,7 @@
           Freenances
         </h1>
 
-        <div class="flex overflow-x-scroll pb-4 mt-20">
+        <div class="flex overflow-x-scroll pb-4 mt-20 custom-scroll">
           <ul class="flex flex-nowrap lg:mx-auto">
             <li class="inline-block px-3">
               <article class="bg-white w-80 h-48 rounded-xl drop-shadow-md p-6">
@@ -30,7 +30,7 @@
               <article class="bg-white w-80 h-48 rounded-xl drop-shadow-md p-6">
                 <header class="flex items-center justify-between">
                   <h2 class="text-sm text-gray-400">Saídas</h2>
-                  <ph-trend-down class="text-red-500" :size="24" />
+                  <ph-trend-down class="text-rose-600" :size="24" />
                 </header>
 
                 <div class="mt-10 block">
@@ -79,7 +79,7 @@
           </li>
           <li class="bg-white p-5 rounded-md">
             <p class="text-base text-gray-700">Aspirador de Pó</p>
-            <h3 class="text-xl my-3 text-red-500">R$ - 400,00</h3>
+            <h3 class="text-xl my-3 text-rose-600">R$ - 400,00</h3>
             <div
               class="flex flex-row justify-between items-center text-gray-500"
             >
@@ -101,3 +101,22 @@ export default {
   name: "IndexPage",
 };
 </script>
+
+<style >
+.custom-scroll::-webkit-scrollbar {
+  background-color: none;
+  width: 16px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #f3f4f6;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 4px solid #f3f4f6;
+}
+
+.custom-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+</style>
