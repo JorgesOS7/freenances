@@ -1,15 +1,5 @@
 <template>
-  <aside
-    class="
-      hidden
-      lg:block
-      fixed
-      w-24
-      h-full
-      bg-purple-700
-      border-r border-purple-800
-    "
-  >
+  <aside class="hidden lg:block fixed w-24 h-full bg-gray-50 border-r">
     <nav class="p-6">
       <ul class="flex flex-col items-center gap-y-6 mt-6">
         <li>
